@@ -8,3 +8,21 @@
 *	make
 *	make install
 *	node --version
+
+## Python insatllation on centos
+* wget https://www.python.org/ftp/python/2.7.4/Python-2.7.4.tar.bz2
+* tar -xvjf Python-2.7.4.tar.bz2
+* cd Python-2.7.4
+* ./configure --prefix=/usr/local/python2.7 --with-threads --enable-shared
+* make
+* make install altinstall
+* test getting correct python
+```sh
+/usr/local/python2.7/bin/python2.7 -V
+```
+* echo "alias python='/usr/local/python2.7/bin/python2.7'" >> ~/.bashrc
+* source ~/.bashrc
+* python –V
+* export PATH=$PATH:/usr/local/python2.7/bin
+* python –V
+
