@@ -25,4 +25,11 @@
 * python –V
 * export PATH=$PATH:/usr/local/python2.7/bin
 * python –V
-
+## pip install
+* https://pip.pypa.io/en/stable/installing/
+* download get-pip.py from https://bootstrap.pypa.io/get-pip.py
+* python get-pip.py
+* pip --version
+```sh
+pip 8.1.2 from /usr/lib/python2.7/site-packages (python 2.7)
+```
